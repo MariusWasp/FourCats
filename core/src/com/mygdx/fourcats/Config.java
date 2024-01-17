@@ -23,7 +23,7 @@ public class Config
 
     public static int ARCHIE_JUMPING_SPEED = 12;
 
-    public static int GAMELENGTH = 5;
+    public static int GAMELENGTH = 120;
 
     public static void setSpeed(CatName name)
     {
