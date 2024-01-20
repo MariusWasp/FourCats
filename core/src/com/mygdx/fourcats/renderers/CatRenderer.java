@@ -25,7 +25,7 @@ public class CatRenderer
         switch (name)
         {
             case MERLIN:
-                CatTexture = new Texture(Gdx.files.internal("MerlinEdit.PNG"));
+                CatTexture = new Texture(Gdx.files.internal("Merlin.PNG"));
                 break;
             case ARCHIE:
                 CatTexture = new Texture(Gdx.files.internal("Archie.PNG"));

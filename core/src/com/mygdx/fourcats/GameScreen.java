@@ -103,8 +103,6 @@ public class GameScreen implements Screen {
 	{
 		gameViewport.update(width, height);
 		statsViewport.update(width, height);
-		System.out.println("Screen W/H: " + Gdx.graphics.getWidth() + " / " + Gdx.graphics.getHeight());
-		System.out.println(gameViewport.getScreenX() + " / " + gameViewport.getScreenY() + " / " + gameViewport.getScreenWidth() + " / " + gameViewport.getScreenHeight());
 		gameViewport.getCamera().position.set(Config.WORLD_SIZE_X / 2f, Config.WORLD_SIZE_Y / 2f , 0);
 		gameViewport.getCamera().update();
 	}

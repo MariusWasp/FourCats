@@ -28,7 +28,7 @@ public class MenuScreen implements Screen {
         selection.addCat(CatName.ARCHIE, "Archie.png");
         selection.addCat(CatName.LENNY, "Lenny.png");
         selection.addCat(CatName.CICCIO, "Ciccio.png");
-        selection.addCat(CatName.MERLIN, "MerlinEdit.png");
+        selection.addCat(CatName.MERLIN, "Merlin.png");
         selection.setPositions();
 
 

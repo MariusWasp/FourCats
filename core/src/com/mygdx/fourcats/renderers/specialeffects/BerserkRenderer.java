@@ -50,7 +50,6 @@ public class BerserkRenderer implements ISpecialEffectRenderer {
         else {
             radius = Math.round(size / 2 + (20 - counter) * increment);
         }
-        System.out.println(radius);
         shape.setColor(Color.RED);
         shape.circle(posX + size/2, posY + size/2, radius);
 

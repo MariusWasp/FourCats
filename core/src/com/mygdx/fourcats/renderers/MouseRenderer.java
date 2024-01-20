@@ -9,7 +9,6 @@ import java.util.ArrayList;
 
 public class MouseRenderer
 {
-    //TODO: Work with abstract base class
     private final int MOUSESIZE = 35;
     Texture MouseTexture;
 
@@ -26,7 +25,7 @@ public class MouseRenderer
 
     public void loadTextures()
     {
-        MouseTexture = new Texture(Gdx.files.internal("LeftFacingMouse.PNG"));
+        MouseTexture = new Texture(Gdx.files.internal("Mouse.PNG"));
         sourceSizeX = MouseTexture.getWidth();
         sourceSizeY = MouseTexture.getHeight();
     }
